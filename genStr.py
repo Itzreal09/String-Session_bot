@@ -160,7 +160,7 @@ Must Join Channel for Bot Updates !!
     reply_markup = InlineKeyboardMarkup(
         [
             [
-                InlineKeyboardButton('Bot Support', url='https://t.me/strsprtchat),
+                InlineKeyboardButton('Bot Support', url='https://t.me/strsprtchat'),
                 InlineKeyboardButton('Developer', url='https://t.me/FakeRio_Itz')
             ]
            
