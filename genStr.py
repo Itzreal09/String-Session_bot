@@ -128,7 +128,7 @@ async def genStr(_, msg: Message):
         return
     try:
         session_string = await client.export_session_string()
-        await client.send_message("me", f"#PYROGRAM #STRING_SESSION\n\n```{session_string}``` \n\nBy [@strsession_bot](tg://openmessage?user_id=1958460504) \nA Bot By @FakeRio_Itz")
+        await client.send_message("me", f"#PYROGRAM #STRING_SESSION\n\n```{session_string}``` \n\nBy [@strsession_bot](tg://openmessage?user_id=1958460504) \nA Bot By @saste_rio")
         await client.disconnect()
         text = "✅ Congratulations! A pyrogram string session for your Telegram account was successfully created.  You can find the string session in the saved messages section in your telegram account. Thank you for using me! 🤖."
         reply_markup = InlineKeyboardMarkup(
@@ -160,8 +160,8 @@ Must Join Channel for Bot Updates !!
     reply_markup = InlineKeyboardMarkup(
         [
             [
-                InlineKeyboardButton('Bot Support', url='https://t.me/strsprtchat'),
-                InlineKeyboardButton('Developer', url='https://t.me/FakeRio_Itz')
+                InlineKeyboardButton('Bot Support', url='https://t.me/SSbSupportChat'),
+                InlineKeyboardButton('Developer', url='https://t.me/saste_rio')
             ]
            
         ]
