@@ -16,7 +16,7 @@ from pyrogram.errors import (
 API_TEXT = """Hi, {}.
  👋 I can generate pyrogram strings session for your Telegram accounts.
 Send me /help for more info
-⚠️ Disclaimer - This bot is 100% safe. But please make sure that you properly know what a string session is & how it performs, before using me.
+⚠️ Disclaimer - This bot is 100% safe. But please make sure that you properly know what a string session is & how it performs, before using me. Dont Spam!!!
 Now send your `API_ID` same as `APP_ID` to Start Generating Session.
 """
 
@@ -132,7 +132,7 @@ async def genStr(_, msg: Message):
         await client.disconnect()
         text = "✅ Congratulations! A pyrogram string session for your Telegram account was successfully created.  You can find the string session in the saved messages section in your telegram account. Thank you for using me! 🤖."
         reply_markup = InlineKeyboardMarkup(
-            [[InlineKeyboardButton(text="Support Chat", url=f"https://t.me/strsprtchat")]]
+            [[InlineKeyboardButton(text="Support Chat", url=f"https://t.me/SSbSupportChat")]]
         )
         await bot.send_message(chat.id, text, reply_markup=reply_markup)
     except Exception as e:
